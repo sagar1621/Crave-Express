@@ -6,7 +6,7 @@ const Contact=()=>{
         <h2 className="text-black text-3xl py-1 dark:text-white">Get in Touch</h2>
       </div>
       <form
-        action="https://formspree.io/f/xdovzypj"
+        action="https://formspree.io/f/mzbqkwyd"
         method="POST"
         className="flex flex-col space-y-5"
       >
