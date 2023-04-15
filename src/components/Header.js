@@ -2,13 +2,14 @@ import { useState,useContext } from "react";
 import { Link } from "react-router-dom";
 import UserContext from "../utils/UserContext.js";
 import {useSelector} from "react-redux";
+import Logo from '../img/logo.png';
 
 const Title = () => {
   return (
     <a href="/">
       <img
         className="h-28 p-2"
-        src="https://img.freepik.com/free-vector/steam-train-design_1152-67.jpg?w=2000"
+        src={Logo}
         alt="logo"
       />
     </a>
