@@ -19,7 +19,7 @@ const Contact=()=>{
         required
         autoComplete="off"
         placeholder="Enter you Message*" className="border-gray-300 bg-white"></textarea>              
-      <input type="submit" value="Send" className="bg-pink-100 px-4 py-2 text-black"/>
+      <input type="submit" value="Send" className="bg-pink-100 px-4 py-2 text-black cursor-pointer"/>
       </form>
     </div>
   </section>;
