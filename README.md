@@ -1,75 +1,28 @@
-# Crave-Express Built using React and Redux Toolkit
+# CraveExpress
+# About this Project
+CraveExpress is a food delivery app developed using ReactJS, Redux Toolkit, Tailwind CSS, and HTML. It utilizes the real Swiggy API to fetch live data and display restaurants in the user's area, with search functionality for easy restaurant discovery. Users can add dishes to the cart and clear the cart as needed, thanks to efficient state management implemented using Redux Toolkit.
+
+# Technologies Used
+* ReactJS: A popular JavaScript library for building user interfaces.
+* Redux Toolkit: A powerful state management library for managing global             application state in React applications.
+* Tailwind CSS: A modern CSS framework that allows for quick and easy styling of      user interfaces.
+* API: The real Swiggy API is used for fetching live data to display restaurants      and their menu items.
+* HTML: The standard markup language for creating web pages.
+
+# Features
+* Live data fetching from the real Swiggy API to display restaurants in the area.
+* Search functionality for easy restaurant discovery.
+* Efficient state management using Redux Toolkit for adding dishes to the cart and    clearing the cart.
+* Visually appealing and user-friendly interface created using Tailwind CSS.
+* Following modern web development best practices for code modularity and             reusability.
 
 [Live](https://crave-express-sagar1621.netlify.app/)
 
 [View Demo:](https://drive.google.com/file/d/1uI98Tm_dJTP5W8Yvgn9CNOvJ2Rxi1Md1/view?usp=sharing)
 
-## Available Scripts
-Clone the Project and run
-### `npm install`
-To install the node modules
-
-In the project directory, you can run:
-
-### `npm run start`
-
-Runs the app in the development mode.\
-Open [http://localhost:1234]( http://localhost:1234) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Installation
+Clone the project to your local machine.
+Run npm install to install the required node modules.
+Run npm run start to start the development server.
+Open http://localhost:1234 in your web browser to view the app.
+Note: Since the data is fetched from the real Swiggy API, there may be a CORS issue. To resolve this, you can install the "Allow CORS: Access-Control-Allow-Origin" extension for Chrome using this link.
